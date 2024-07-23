@@ -1,0 +1,57 @@
+.fixed-background-container {
+    position: relative;
+    background: url('../assets/grey2.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-bottom: 150px;
+  }
+  
+  .fixed-background-overlay {
+    width: 100%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6) ; 
+    padding: 100px;
+  }
+  
+  .fixed-background-overlay .small-text {
+    font-size: 1em;
+  letter-spacing: 8px;
+  font-weight: 800;
+    color: #FFC107; /* Replace with your text color */
+  }
+  
+  .fixed-background-overlay h1 {
+    font-size: 3.5em;
+    letter-spacing: 1px;
+    font-weight: 800;
+    margin: 10px 0;
+  }
+  
+  .fixed-background-overlay h1 span {
+    color: #FFC107; /* Replace with your highlighted text color */
+  }
+  
+  .fixed-background-button {
+    align-items: center;
+    background-color: #FFC107; /* Replace with your button's background color */
+    border: none;
+    padding: 10px 20px;
+    color: #000; /* Replace with your text color */
+    margin-top: 30px;
+
+    cursor: pointer;
+    font-size: 1.3em;
+    font-weight: 600;
+    border-radius: 10px;
+
+  }
+  
+  .fixed-background-button img {
+    width: 20px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
